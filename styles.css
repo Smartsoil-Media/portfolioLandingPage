@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    background-color: #252525;
+}
+
+h1 {
+font-size: 60px;
+margin-top: 0;
+}
+
+h2 {
+    font-size: 42px;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+
+
+
+
+/* BUTTONS AND LINKS */
+.btn {
+    background-color: #99d930;
+    color: #131313;
+    padding: 8px 16px;
+    display: inline-block;
+    margin-top: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+    border: 1px solid #99d930;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #fff;
+    color: #252525;
+}
+time {
+    color: #99d930;
+}
+.name {
+    color: #99d930;
+}
+a {
+    color: #99d930;
+}
+
+a:hover {
+    color: #131313;
+}
+/* ************** */
+
+ 
+
+
+
+
+/* Font Minipulation */
+.font-black {
+    font-weight: bold;
+    color: #99d930;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.small-text {
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+#big-font {
+    font-size: 80px;
+}
+
+#slightly-bigger-font {
+    font-size: 60px;
+}
+/* ************** */
+
+
+
+/* CONTAINERS */
+.header-container, .desc-container, .article-container {
+    margin: 0;
+    padding: 100px;
+} 
+
+.heading-decorations {
+    border-top: #c4c4c4 1px solid;
+    border-bottom: #c4c4c4 1px solid;
+    padding-top: 20px;
+   
+}
+
+.header-container {
+    background-color: #d7d7d7;
+    color: #fff;
+    background-color: #252525;
+}
+
+.desc-container {
+    background-color: #fff;
+}
+
+.article-container {
+    background-color: #eaf9ff;
+    color: #fff;
+    background-color: #252525;
+}
+
+.container {
+    width: 570px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 75%;
+    }
+}
+/* ************** */
+
+
+
+.profile-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    margin-bottom: 0;
+}
+@media (max-width: 767px) {
+    .profile-img {
+        height: 50%;
+        width: 85%;
+    }
+}

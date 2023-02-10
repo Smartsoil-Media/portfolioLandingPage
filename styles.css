@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
     background-color: #252525;
+    padding: 0;
 }
 
 h1 {
@@ -94,8 +95,8 @@ a:hover {
 
 /* CONTAINERS */
 .header-container, .desc-container, .article-container {
-    margin: 0 auto;
-    padding: 100px;
+    margin: 0;
+    padding: 100px 50px;
 } 
 
 .heading-decorations {
@@ -124,13 +125,12 @@ a:hover {
 .container {
     width: 570px;
     margin: 0 auto;
+    padding: 0;
 }
 
 @media (max-width: 767px) {
     .container {
-        max-width: 425px;
-        min-width: 90%;
-        margin-right: 0 auto;
+        width: 99%;
     }
 }
 /* ************** */
